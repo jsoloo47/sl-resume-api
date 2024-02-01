@@ -5,18 +5,18 @@ export default function handler(req, res) {
     name: "Juan Solano",
     title: "Software Engineer",
     summary:
-      "I am a creative and detail-oriented Software Engineer with proficiency in full-stack JavaScript. I have experience working cohesively with cross-functional teams to build innovative solutions. I am fascinated with the narrow applications of AI and excited for the future.",
+      "Creative and detail-oriented Full-Stack Software Engineer with a strong foundation in JavaScript technologies and growing expertise in Python development. I have experience working cohesively with cross-functional teams to build innovative solutions. I am fascinated with the narrow applications of AI and excited for the future",
     workExperience: [
       {
         position: "Software Engineer",
-        company: "Prime Healthcare | Bio-Med",
+        company: "Prime Healthcare",
         date: "January 2023 — Present",
         achievements: [
-          "Designed and optimized complex data pipelines, integrating multiple data sources, advanced transformation scripts, and dynamic import/export conditions.",
-          "Engineered robust APIs, bolstering back-end functionality and facilitating fluid user interactions.",
           "Excelled in UI development using React, crafting intuitive and responsive interfaces that improved user engagement and streamlined interactions",
-          "Swiftly mastered full-stack ServiceNow development, becoming a key support pillar after the team lead's departure.",
-          "Balanced technical expertise with business insight, ensuring development efforts positively impacted the organization's strategic objectives and profitability.",
+          "Designed and optimized complex data pipelines, integrating multiple data sources, advanced transformation scripts, and dynamic import/export conditions",
+          "Engineered robust APIs in Node.js, and assisted in maintaining Python-based APIs, bolstering back-end functionality and facilitating fluid user interactions",
+          "Swiftly mastered full-stack ServiceNow development, becoming a key support pillar after the team lead's departure",
+          "Balanced technical expertise with business insight, ensuring development efforts positively impacted the organization's strategic objectives and profitability",
         ],
       },
       {
@@ -43,20 +43,20 @@ export default function handler(req, res) {
     projects: [
       {
         name: "Zentor AI",
-        description: "AI-Powered Productivity Assistant for Programmers.",
+        description: "AI-Powered Personal Journal",
         features: [
-          "Designed an AI-based productivity assistant to help coders stay in the zone using Pomodoro techniques.",
-          "Implemented features for streamlined coding and quicker debugging to prevent burnout.",
-          "Utilized advanced AI algorithms to provide real-time coding tips and time-management guidance.",
+          "Comprehensive personal journal platform, utilizing the Next.js framework alongside React for a robust front-end experience",
+          "Integrated Next.js for server-side rendering (SSR) of React components,ensuring fast page loads and improved SEO",
+          "Developed custom React hooks and state management solutions to handle real-time updates in the journal, providing seamless integration of AI-generated insights and user inputs.",
         ],
       },
       {
         name: "OCR-EXCEL",
         description: "Invoice Management App",
         features: [
-          "Developed a MERN-based application designed for invoice creation and management, specifically targeting clients with non-native English-speaking employees.",
-          "Integrated ChatGPT to auto-correct broken English in invoice descriptions, improving communication clarity.",
-          "Implemented back-end storage solutions using MongoDB and automated Excel creation for easy data export.",
+          "Developed a MERN-based application designed for invoice creation and management, specifically targeting clients with non-native English-speaking employees",
+          "Integrated OpenAI’s APIs to auto-correct broken English in invoice descriptions, improving communication clarity",
+          "Implemented back-end storage solutions using MongoDB and automated Excel creation for easy data export",
         ],
       },
     ],
@@ -73,6 +73,8 @@ export default function handler(req, res) {
     skills: [
       "HTML",
       "CSS",
+      "Python",
+      "Django",
       "Javascript",
       "React",
       "React Native",
