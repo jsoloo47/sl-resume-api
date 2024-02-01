@@ -12,9 +12,8 @@ export default function handler(req, res) {
         company: "Prime Healthcare",
         date: "January 2023 — Present",
         achievements: [
+          "Architected complex data pipelines and robust APIs using Node.js, aligning with key business strategies",
           "Excelled in UI development using React, crafting intuitive and responsive interfaces that improved user engagement and streamlined interactions",
-          "Designed and optimized complex data pipelines, integrating multiple data sources, advanced transformation scripts, and dynamic import/export conditions",
-          "Engineered robust APIs in Node.js, and assisted in maintaining Python-based APIs, bolstering back-end functionality and facilitating fluid user interactions",
           "Swiftly mastered full-stack ServiceNow development, becoming a key support pillar after the team lead's departure",
           "Balanced technical expertise with business insight, ensuring development efforts positively impacted the organization's strategic objectives and profitability",
         ],
